@@ -1,0 +1,2 @@
+This is a dummy txt file used to display how the programm is working.
+This file is going to be compressed as a zip file using the following password for protection: _+ui#_
