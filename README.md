@@ -8,6 +8,26 @@ This C++ program is a ZIP Archive Password Cracker that uses the libarchive libr
 
 The program uses C++ coroutines to implement the CombinationGenerator class, which generates all possible combinations of characters for the password guessing process. Coroutines are a powerful feature in modern C++ that allows the program to suspend and resume its execution, making it suitable for managing asynchronous tasks and iterating over a large number of possibilities efficiently.
 
+## Requirements
+
+To run this program, you need the following:
+
+1. C++20 Standard: This code utilizes C++20 features, so ensure that your compiler supports the C++20 standard.
+
+2. libarchive Library for C++: The program uses the libarchive library to handle ZIP archives. You can find the libarchive library at [https://github.com/libarchive/libarchive](https://github.com/libarchive/libarchive). Please refer to the documentation on the GitHub repository for installation instructions.
+
+## How to Compile
+
+To compile the code, follow these steps:
+
+1. Ensure that you have set up the g++-12 compiler on your system.
+
+2. Install the libarchive library for C++ by following the instructions on the GitHub repository: [https://github.com/libarchive/libarchive](https://github.com/libarchive/libarchive).
+
+3. Use Visual Studio Code (VSCode) with the provided tasks configuration to build the project. The tasks configuration includes the necessary flags for compilation, including support for coroutines and linking to the libarchive library.
+
+4. Open the terminal in VSCode and run the build task "C/C++: g++-12 build active file" to compile the code.
+
 ## Limitations
 
 - This code is designed purely for educational purposes. While it demonstrates the concept of password cracking and showcases the use of coroutines in C++, it is not intended for real-world use. There are more performant and secure password-cracking solutions available, and unauthorized access to encrypted content is illegal and unethical.
@@ -35,4 +55,3 @@ Remember, using password cracking techniques to gain unauthorized access to encr
 The code provided here is the intellectual property of Bouraoui Hamadou and is protected under copyright laws. Redistribution and use in source and binary forms, with or without modification, are permitted under the conditions specified in the license statement.
 
 Before using or modifying this code, please ensure that you have read and understood the license terms. Unauthorized distribution or use of this code for malicious purposes is strictly prohibited.
-
